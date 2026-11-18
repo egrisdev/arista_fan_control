@@ -1,0 +1,15 @@
+band                       loadstep   P(over) 0.10  mean over 0.09 min  max over 1.00 min  worst excess +1.0  fan 36.1  chg/day 54.5
+band                       warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess -1.0  fan 42.2  chg/day 28.4
+bandlite.py                loadstep   P(over) 0.15  mean over 0.10 min  max over 1.00 min  worst excess +1.0  fan 35.6  chg/day 54.5
+bandlite.py                warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 35.0  chg/day 27.7
+model.py                   loadstep   P(over) 0.05  mean over 0.01 min  max over 0.25 min  worst excess +1.0  fan 34.6  chg/day 17.9
+model.py                   warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess -0.5  fan 35.1  chg/day 13.5
+gspi.py                    loadstep   P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 34.5  chg/day 13.4
+gspi.py                    warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 35.4  chg/day 17.5
+pi.py                      loadstep   P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 35.4  chg/day 34.4
+pi.py                      warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 35.5  chg/day 16.5
+pid.py                     loadstep   P(over) 0.10  mean over 0.03 min  max over 0.25 min  worst excess +1.0  fan 34.4  chg/day 39.0
+pid.py                     warmspell  P(over) 0.05  mean over 0.01 min  max over 0.25 min  worst excess +0.1  fan 36.1  chg/day 18.9
+bandplus.py                loadstep   P(over) 0.15  mean over 0.04 min  max over 0.25 min  worst excess +1.0  fan 35.9  chg/day 21.5
+bandplus.py                warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 35.5  chg/day 13.9
+done

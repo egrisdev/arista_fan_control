@@ -1,0 +1,2 @@
+v1.3.2         | measured fan 37.3 chg 23.3 over 0.00 | all36 fan 39.3 chg 28.1 over 2.75 maxExc +1.0 head 19.8 | 20 seeds: loadstep P(over) 0.15 chg 54.5, warmspell P(over) 0.00 fan 36.6
+done

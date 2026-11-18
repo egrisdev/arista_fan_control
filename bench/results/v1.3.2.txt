@@ -1,0 +1,9 @@
+# 1.3.2 at-target raise: controller benchmark, 2026-10-26 (sweep_cfg.py, measured model, standard seed + 20-seed sweep)
+# old = 1.3.1; new-latest-only = first attempt (latest reading only, rejected); 1.3.2 = released rule
+old            | measured fan 37.3 chg 23.3 over 0.00 | all36 fan 39.3 chg 24.4 over 3.00 maxExc +1.0 head 19.8 | 20 seeds: loadstep P(over) 0.15 chg 54.5, warmspell P(over) 0.00 fan 36.6
+new-latest-only          | measured fan 37.3 chg 23.3 over 1.00 | all36 fan 39.4 chg 23.9 over 5.75 maxExc +2.0 head 19.8 | 20 seeds: loadstep P(over) 0.90 chg 52.8, warmspell P(over) 0.00 fan 36.6
+1.3.2          | measured fan 37.3 chg 23.3 over 0.00 | all36 fan 39.4 chg 24.4 over 3.00 maxExc +1.0 head 19.8 | 20 seeds: loadstep P(over) 0.15 chg 54.5, warmspell P(over) 0.00 fan 36.6
+# 2026-10-26, after release review finding 5: 1.3.2's smoothed test lags (a 1 C step onto target counted as hotter for 3 polls)
+# weighted-latest = rejected fix (latest weighted excess vs at the raise); climb = fix after 1.3.2 (reading at target rose > 1 C over the smooth window)
+weighted-latest | measured fan 37.3 chg 23.3 over 0.75 | all36 fan 39.4 chg 23.6 over 5.00 maxExc +1.0 head 19.8 | 20 seeds: loadstep P(over) 0.90 chg 52.8, warmspell P(over) 0.00 fan 36.6
+climb          | measured fan 37.3 chg 23.3 over 0.00 | all36 fan 39.4 chg 23.9 over 3.00 maxExc +1.0 head 19.8 | 20 seeds: loadstep P(over) 0.20 chg 53.6, warmspell P(over) 0.00 fan 36.6

@@ -1,0 +1,49 @@
+System temperature status is: Ok
+Action on overheat: shutdown
+Recovery mode when power-cycle upon overheat: not applicable
+Restrict recovery when ambient temperature is at or above: not applicable
+                                                                 Alert  Critical
+                                               Temp    Setpoint  Limit     Limit
+Sensor  Description                             (C)         (C)    (C)       (C)
+------- ----------------------------------- ------- ----------- ------ ---------
+1       Cpu temp sensor                        43.2   (60) 60.0     90        95
+2       Cpu board temp sensor                  27.0   (55) 55.0     75        80
+3       Back-panel temp sensor                 25.0   (50) 50.0     75        85
+4       Board sensor                           37.0  (N/A) 45.5     70        80
+5       Front-panel temp sensor                29.1  (N/A) 35.8     55        65
+6       Trident Bottom Right Outer             50.4  (N/A) 65.0    100       110
+7       Trident Bottom Left Outer              50.9  (N/A) 65.0    100       110
+8       Trident Top Left Outer                 50.4  (N/A) 65.0    100       110
+9       Trident Top Right Outer                48.2  (N/A) 65.0    100       110
+10      Trident Bottom Right Inner             49.8  (N/A) 65.0    100       110
+11      Trident Bottom Left Inner              50.9  (N/A) 65.0    100       110
+12      Trident Top Left Inner                 49.3  (N/A) 65.0    100       110
+13      Trident Top Right Inner                50.4  (N/A) 65.0    100       110
+14      Phy1-4                                 53.0  (N/A) 65.0    100       110
+15      Phy5-8                                 52.0  (N/A) 65.0    100       110
+16      Phy9-12                                45.0  (N/A) 65.0    100       110
+17      Phy13-16                               44.0  (N/A) 65.0    100       110
+18      Phy17-20                               55.0  (N/A) 65.0    100       110
+19      Phy21-24                               55.0  (N/A) 65.0    100       110
+20      Phy25-28                               50.0  (N/A) 65.0    100       110
+21      Phy29-32                               49.0  (N/A) 65.0    100       110
+22      Phy33-36                               46.0  (N/A) 65.0    100       110
+23      Phy37-40                               46.0  (N/A) 65.0    100       110
+24      Phy41-44                               44.0  (N/A) 65.0    100       110
+25      Phy45-48                               45.0  (N/A) 65.0    100       110
+
+PowerSupply 1:
+                                                                 Alert  Critical
+                                               Temp    Setpoint  Limit     Limit
+Sensor  Description                             (C)         (C)    (C)       (C)
+------- ----------------------------------- ------- ----------- ------ ---------
+1       Hotspot                                30.0   (80) 80.0     95       100
+2       Inlet                                  32.0   (55) 55.0     70        75
+
+PowerSupply 2:
+                                                                 Alert  Critical
+                                               Temp    Setpoint  Limit     Limit
+Sensor  Description                             (C)         (C)    (C)       (C)
+------- ----------------------------------- ------- ----------- ------ ---------
+1       Hotspot                                30.0   (80) 80.0     95       100
+2       Inlet                                  32.0   (55) 55.0     70        75

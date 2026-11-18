@@ -1,0 +1,125 @@
+{
+    "defaultZones": false,
+    "numCoolingZones": [],
+    "coolingMode": "manual",
+    "ambientTemperature": 25.25,
+    "shutdownOnInsufficientFans": true,
+    "airflowDirection": "backToFrontAirflow",
+    "overrideFanSpeed": 40,
+    "powerSupplySlots": [
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601284.162777,
+                    "maxSpeed": 23000,
+                    "lastSpeedStableChangeTime": 1768601432.6634507,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 40,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "PowerSupply1/1"
+                }
+            ],
+            "speed": 40,
+            "label": "PowerSupply1"
+        },
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601283.2036963,
+                    "maxSpeed": 23000,
+                    "lastSpeedStableChangeTime": 1768601432.4614263,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 39,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "PowerSupply2/1"
+                }
+            ],
+            "speed": 40,
+            "label": "PowerSupply2"
+        }
+    ],
+    "fanTraySlots": [
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601271.7807827,
+                    "maxSpeed": 17500,
+                    "lastSpeedStableChangeTime": 1768601315.6614914,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 39,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "1/1"
+                }
+            ],
+            "speed": 40,
+            "label": "1"
+        },
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601271.780977,
+                    "maxSpeed": 17500,
+                    "lastSpeedStableChangeTime": 1768601315.6614583,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 40,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "2/1"
+                }
+            ],
+            "speed": 40,
+            "label": "2"
+        },
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601271.7810643,
+                    "maxSpeed": 17500,
+                    "lastSpeedStableChangeTime": 1768601315.661513,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 39,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "3/1"
+                }
+            ],
+            "speed": 40,
+            "label": "3"
+        },
+        {
+            "status": "ok",
+            "fans": [
+                {
+                    "status": "ok",
+                    "uptime": 1768601271.7808778,
+                    "maxSpeed": 17500,
+                    "lastSpeedStableChangeTime": 1768601315.6615353,
+                    "configuredSpeed": 40,
+                    "actualSpeed": 40,
+                    "speedHwOverride": false,
+                    "speedStable": true,
+                    "label": "4/1"
+                }
+            ],
+            "speed": 40,
+            "label": "4"
+        }
+    ],
+    "minFanSpeed": 0,
+    "currentZones": 1,
+    "configuredZones": 0,
+    "systemStatus": "coolingOk"
+}

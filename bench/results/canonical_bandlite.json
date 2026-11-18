@@ -1,0 +1,328 @@
+{
+ "variants/bandlite.py": {
+  "measured/steady25": {
+   "mean_fan": 31.206818181818182,
+   "fan_power_vs_40": 0.47633384232952475,
+   "changes_per_day": 16.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.0
+  },
+  "measured/steady28": {
+   "mean_fan": 35.10871212121212,
+   "fan_power_vs_40": 0.6779983250473473,
+   "changes_per_day": 12.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 21.25
+  },
+  "measured/daily": {
+   "mean_fan": 32.90815602836879,
+   "fan_power_vs_40": 0.5750241134751647,
+   "changes_per_day": 15.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.5,
+   "min_headroom": 19.75
+  },
+  "measured/warmspell": {
+   "mean_fan": 35.28174603174603,
+   "fan_power_vs_40": 0.7174398189484206,
+   "changes_per_day": 32.72727272727273,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 19.25
+  },
+  "measured/loadstep": {
+   "mean_fan": 35.68981481481482,
+   "fan_power_vs_40": 0.7863234953703623,
+   "changes_per_day": 52.8,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 24.125
+  },
+  "measured/glitch": {
+   "mean_fan": 52.06086956521739,
+   "fan_power_vs_40": 2.5657328294836956,
+   "changes_per_day": 25.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.0
+  },
+  "noisy/steady25": {
+   "mean_fan": 33.08409090909091,
+   "fan_power_vs_40": 0.5699584161931714,
+   "changes_per_day": 60.0,
+   "handoffs": 0,
+   "min_over_target": 0.25,
+   "max_excess": 1.0,
+   "min_headroom": 23.375
+  },
+  "noisy/steady28": {
+   "mean_fan": 37.278030303030306,
+   "fan_power_vs_40": 0.8151779947916826,
+   "changes_per_day": 64.0,
+   "handoffs": 0,
+   "min_over_target": 0.5,
+   "max_excess": 1.0,
+   "min_headroom": 20.875
+  },
+  "noisy/daily": {
+   "mean_fan": 34.418794326241134,
+   "fan_power_vs_40": 0.6728463874113176,
+   "changes_per_day": 42.5,
+   "handoffs": 0,
+   "min_over_target": 1.75,
+   "max_excess": 0.375,
+   "min_headroom": 19.375
+  },
+  "noisy/warmspell": {
+   "mean_fan": 37.69424603174603,
+   "fan_power_vs_40": 0.8896483475942641,
+   "changes_per_day": 70.9090909090909,
+   "handoffs": 0,
+   "min_over_target": 1.5,
+   "max_excess": 0.875,
+   "min_headroom": 19.5
+  },
+  "noisy/loadstep": {
+   "mean_fan": 36.87314814814815,
+   "fan_power_vs_40": 0.875560951967596,
+   "changes_per_day": 76.8,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 23.375
+  },
+  "noisy/glitch": {
+   "mean_fan": 52.3536231884058,
+   "fan_power_vs_40": 2.5800390511775406,
+   "changes_per_day": 31.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 23.5
+  },
+  "sensitive/steady25": {
+   "mean_fan": 36.0,
+   "fan_power_vs_40": 0.7290000000000295,
+   "changes_per_day": 4.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -2.0,
+   "min_headroom": 23.625
+  },
+  "sensitive/steady28": {
+   "mean_fan": 38.39507575757576,
+   "fan_power_vs_40": 0.8885052497632686,
+   "changes_per_day": 82.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 21.125
+  },
+  "sensitive/daily": {
+   "mean_fan": 36.20354609929078,
+   "fan_power_vs_40": 0.7519412455673284,
+   "changes_per_day": 43.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.5,
+   "min_headroom": 19.75
+  },
+  "sensitive/warmspell": {
+   "mean_fan": 38.064682539682536,
+   "fan_power_vs_40": 0.8724203745039378,
+   "changes_per_day": 67.63636363636364,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.125,
+   "min_headroom": 19.375
+  },
+  "sensitive/loadstep": {
+   "mean_fan": 37.63055555555555,
+   "fan_power_vs_40": 0.8481536024305825,
+   "changes_per_day": 21.6,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 23.5
+  },
+  "sensitive/glitch": {
+   "mean_fan": 53.41340579710145,
+   "fan_power_vs_40": 2.640031221693843,
+   "changes_per_day": 35.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 23.25
+  },
+  "insensitive/steady25": {
+   "mean_fan": 30.0,
+   "fan_power_vs_40": 0.421875,
+   "changes_per_day": 10.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -5.0,
+   "min_headroom": 24.625
+  },
+  "insensitive/steady28": {
+   "mean_fan": 30.318181818181817,
+   "fan_power_vs_40": 0.4370369318181819,
+   "changes_per_day": 10.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -2.0,
+   "min_headroom": 21.625
+  },
+  "insensitive/daily": {
+   "mean_fan": 31.019237588652484,
+   "fan_power_vs_40": 0.4720149531804085,
+   "changes_per_day": 6.5,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.5,
+   "min_headroom": 19.875
+  },
+  "insensitive/warmspell": {
+   "mean_fan": 32.84047619047619,
+   "fan_power_vs_40": 0.5888800595238098,
+   "changes_per_day": 20.727272727272727,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.125,
+   "min_headroom": 19.375
+  },
+  "insensitive/loadstep": {
+   "mean_fan": 36.05925925925926,
+   "fan_power_vs_40": 0.9014010995370368,
+   "changes_per_day": 55.2,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 24.625
+  },
+  "insensitive/glitch": {
+   "mean_fan": 51.516304347826086,
+   "fan_power_vs_40": 2.5398862092391306,
+   "changes_per_day": 14.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": -5.0,
+   "min_headroom": 24.625
+  },
+  "sluggish/steady25": {
+   "mean_fan": 31.24128787878788,
+   "fan_power_vs_40": 0.47777099313444804,
+   "changes_per_day": 16.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.0
+  },
+  "sluggish/steady28": {
+   "mean_fan": 35.17689393939394,
+   "fan_power_vs_40": 0.6818026574337108,
+   "changes_per_day": 12.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 21.25
+  },
+  "sluggish/daily": {
+   "mean_fan": 32.818528368794325,
+   "fan_power_vs_40": 0.5692585424977786,
+   "changes_per_day": 13.5,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.625,
+   "min_headroom": 19.875
+  },
+  "sluggish/warmspell": {
+   "mean_fan": 34.80654761904762,
+   "fan_power_vs_40": 0.6847976469494204,
+   "changes_per_day": 20.727272727272727,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.125,
+   "min_headroom": 19.375
+  },
+  "sluggish/loadstep": {
+   "mean_fan": 35.850462962962965,
+   "fan_power_vs_40": 0.8322507016782315,
+   "changes_per_day": 69.6,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 24.0
+  },
+  "sluggish/glitch": {
+   "mean_fan": 51.768115942028984,
+   "fan_power_vs_40": 2.552213343523551,
+   "changes_per_day": 26.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.0
+  },
+  "hotter/steady25": {
+   "mean_fan": 41.2125,
+   "fan_power_vs_40": 1.0955480646307099,
+   "changes_per_day": 6.0,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.125
+  },
+  "hotter/steady28": {
+   "mean_fan": 45.05530303030303,
+   "fan_power_vs_40": 1.4293143584280306,
+   "changes_per_day": 16.0,
+   "handoffs": 0,
+   "min_over_target": 0.5,
+   "max_excess": 1.0,
+   "min_headroom": 21.375
+  },
+  "hotter/daily": {
+   "mean_fan": 42.2883865248227,
+   "fan_power_vs_40": 1.224902353446277,
+   "changes_per_day": 36.5,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.625,
+   "min_headroom": 20.5
+  },
+  "hotter/warmspell": {
+   "mean_fan": 45.546031746031744,
+   "fan_power_vs_40": 1.5330193018353224,
+   "changes_per_day": 19.636363636363637,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": -0.125,
+   "min_headroom": 20.125
+  },
+  "hotter/loadstep": {
+   "mean_fan": 45.73009259259259,
+   "fan_power_vs_40": 1.6225295500578687,
+   "changes_per_day": 40.8,
+   "handoffs": 0,
+   "min_over_target": 0.0,
+   "max_excess": 0.0,
+   "min_headroom": 24.125
+  },
+  "hotter/glitch": {
+   "mean_fan": 54.53804347826087,
+   "fan_power_vs_40": 2.7195157099184826,
+   "changes_per_day": 12.0,
+   "handoffs": 5,
+   "min_over_target": 0.0,
+   "max_excess": -1.0,
+   "min_headroom": 24.25
+  }
+ }
+}

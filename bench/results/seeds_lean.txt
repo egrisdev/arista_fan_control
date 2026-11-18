@@ -1,0 +1,2 @@
+lean.py                    loadstep   P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess +0.0  fan 34.8  chg/day 16.4
+lean.py                    warmspell  P(over) 0.00  mean over 0.00 min  max over 0.00 min  worst excess -0.1  fan 35.8  chg/day 17.5

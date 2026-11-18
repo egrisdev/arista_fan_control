@@ -1,0 +1,12 @@
+inlet | min_authority 0.5 (v1.3): from 40% / ramped (changes in last 12 h; worst raw excess; binding) | min_authority 1 (unweighted): from 40% / ramped
+  20 C |   30 (0; -6.0; Phy21-24) /   30 (0; -6.0; Phy21-24) |   30 (0; -6.0; Phy21-24) /   30 (0; -6.0; Phy21-24)
+  22 C |   30 (0; -4.0; Phy21-24) /   30 (0; -4.0; Phy21-24) |   30 (0; -4.0; Phy21-24) /   30 (0; -4.0; Phy21-24)
+  24 C |   30 (0; -2.0; Phy21-24) /   30 (0; -2.0; Phy21-24) |   30 (0; -2.0; Phy21-24) /   30 (0; -2.0; Phy21-24)
+  25 C |   31 (0; -2.0; Phy17-20) /   31 (0; -2.0; Phy17-20) |   31 (0; -2.0; Phy17-20) /   31 (0; -2.0; Phy17-20)
+  26 C |   32 (0; -2.0; Phy17-20) /   32 (0; -2.0; Phy17-20) |   32 (0; -2.0; Phy17-20) /   32 (0; -2.0; Phy17-20)
+  27 C |   34 (0; -2.0; Phy17-20) /   33 (0; -1.0; Phy17-20) |   34 (0; -2.0; Front-panel temp sensor) /   33 (0; -1.0; Phy17-20)
+  28 C |   35 (0; -1.9; Phy17-20) /   35 (0; -1.9; Phy17-20) |   38 (0; -2.6; Front-panel temp sensor) /   37 (0; -2.4; Front-panel temp sensor)
+  29 C |   36 (0; -1.2; Phy17-20) /   36 (0; -1.2; Phy17-20) |   40 (0; -2.0; Front-panel temp sensor) /   44 (0; -2.5; Front-panel temp sensor)
+  30 C |   40 (0; -1.0; Front-panel temp sensor) /   40 (0; -1.0; Front-panel temp sensor) |   53 (0; -2.6; Front-panel temp sensor) /   51 (0; -2.4; Front-panel temp sensor)
+  31 C |   49 (0; -1.1; Front-panel temp sensor) /   49 (0; -1.1; Front-panel temp sensor) |   65 (0; -2.5; Front-panel temp sensor) /   56 (0; -1.9; Front-panel temp sensor)
+done

@@ -1,0 +1,5 @@
+W_MIN 0.02 | measured fan 37.0 chg 25.6 over 0.00 | all36 fan 38.9 chg 32.1 over 4.50 maxExc +1.0 | seeds loadstep P(over) 0.15 warmspell P(over) 0.00 warm fan 35.0
+W_MIN 0.25 | measured fan 37.0 chg 24.3 over 0.00 | all36 fan 39.0 chg 31.4 over 4.50 maxExc +1.0 | seeds loadstep P(over) 0.15 warmspell P(over) 0.00 warm fan 35.2
+W_MIN 0.35 | measured fan 37.1 chg 24.9 over 0.00 | all36 fan 39.0 chg 31.4 over 4.00 maxExc +1.0 | seeds loadstep P(over) 0.15 warmspell P(over) 0.00 warm fan 35.6
+W_MIN 0.50 | measured fan 37.3 chg 24.3 over 0.00 | all36 fan 39.2 chg 30.8 over 3.00 maxExc +1.0 | seeds loadstep P(over) 0.15 warmspell P(over) 0.00 warm fan 36.5
+done
